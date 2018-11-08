@@ -1,6 +1,7 @@
 package com.elektra.mvvmposts.base
 
 import android.arch.lifecycle.ViewModel
+import com.elektra.mvvmposts.injection.DaggerViewModelInjector
 import com.elektra.mvvmposts.injection.ViewModelInjector
 import com.elektra.mvvmposts.injection.module.NetworkModule
 import com.elektra.mvvmposts.ui.post.PostListViewModel
